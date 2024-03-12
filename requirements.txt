@@ -1,0 +1,5 @@
+openai==1.2.4
+azure-core==1.26.4
+azure-search-documents==11.4.0b11
+streamlit
+azure-identity
