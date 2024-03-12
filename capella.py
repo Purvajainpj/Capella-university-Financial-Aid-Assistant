@@ -100,21 +100,20 @@ if st.sidebar.button(':red[New Topic]'):
     st.session_state.messages = []
 
 
-# with st.sidebar:
-#     st.write("""
-#     **Recommended Prompts**-
+with st.sidebar:
+    st.write("""
+    **Recommended Prompts**-
              
-#     * What is invoice date for invoice from Docusign and what was the payment method?
-#     * What is the total price for all items for Steel bear ltd. PO(00135)?
-#     * What is cosignee address for invoice from Globex corporation company?
-#     * What amount of GST was applied on bill of house of malts?
-#     * What is Payment information for house of malts bill?
-#     """)
-# with st.expander("See Walkthrough"):
-#     st.write("""
-#         Video
-#     """)
-#     st.video("C:\Invoice_pos_r_analysis\Invoice_analyzer.mp4")
+    * How is the monthly payment amount calculated under the ICR Plan?
+    * What are the types of income-driven repayment plans offered?
+    * Am i eligible for student aid if my permanent residence status of US has expired?
+
+    """)
+with st.expander("See Walkthrough"):
+    st.write("""
+        Video
+    """)
+    st.video("Student_financial_aid_assistant.mp4")
 
     
     
